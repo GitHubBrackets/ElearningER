@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="541c63ed-88d0-44c0-8cc2-f6bc43a1960f" 
+        solutionId="541c63ed-88d0-44c0-8cc2-f6bc43a1960f" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ElearningR_E"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="f772c5fc-9aae-47b3-8498-42ad268e4570" />
+  </features>
+</package>
