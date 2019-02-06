@@ -42,9 +42,32 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="EstructuraDatos\Columnas\ApellidoM\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="EstructuraDatos\Columnas\ApellidoP\Elements.xml" />
+    <Content Include="EstructuraDatos\Columnas\Nombre\Elements.xml" />
+    <Content Include="EstructuraDatos\Listas\Registro\Elements.xml" />
+    <Content Include="EstructuraDatos\Listas\Registro\RegistroInstance\Elements.xml" />
+    <Content Include="EstructuraDatos\Listas\Registro\Schema.xml" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <None Include="EstructuraDatos\Columnas\ApellidoM\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b7700a70-88af-40da-9044-513d2e547f01}</SharePointProjectItemId>
+    </None>
+    <None Include="EstructuraDatos\Columnas\ApellidoP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{91689225-f456-45b6-bc97-27954b4a5d72}</SharePointProjectItemId>
+    </None>
+    <None Include="EstructuraDatos\Columnas\Nombre\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{83b08101-3d26-4553-abcc-876de0856b4b}</SharePointProjectItemId>
+    </None>
+    <None Include="EstructuraDatos\Listas\Registro\RegistroInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bbb77339-868b-4330-9f62-9d9b848caca3}</SharePointProjectItemId>
+    </None>
+    <None Include="EstructuraDatos\Listas\Registro\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c2c40ae1-2d1a-44bf-b84b-8be2d9179fad}</SharePointProjectItemId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{effaefda-6921-49af-9f33-b051989a0174}</SharePointProjectItemId>
@@ -95,6 +118,7 @@
       <SubType>Designer</SubType>
     </AppManifestFile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

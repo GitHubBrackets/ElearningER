@@ -27,11 +27,35 @@
 <%-- El marcado y el script del elemento Content siguiente se pondrá en el <body> de la página. --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
-    <div>
-        <p id="message">
-            <!-- El contenido siguiente se reemplazará por el nombre de usuario cuando ejecute la aplicación; vea App.js -->
-            initializing...
-        </p>
-    </div>
+<!--<h1 id="lblMensaje">Usted no tiene permisos para visualizar los registros.</h1>-->
+    
+    <div id="dvContenido" class="bs-glyphicons">
+        <ul class="bs-glyphicons-list">
+            <li>
+                <a href="../Lists/Registro">
+                    <span class="glyphicon glyphicon-list-alt"></span>
+                    <span class="glyphicon-class">
+                        Registros generales
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="../Lists/PublicacionesTecnicas">
+                    <span class="glyphicon glyphicon-send"></span>
+                    <span class="glyphicon-class">
+                        Gestión de documentos técnicos
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="../Lists/Catalogos">
+                    <span class="glyphicon glyphicon-cog"></span>
+                    <span class="glyphicon-class">
+                        Catálogos
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>>
 
 </asp:Content>
